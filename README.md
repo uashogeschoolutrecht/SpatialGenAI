@@ -11,7 +11,7 @@ For questions and/or comments, see Support at the bottom of the page.
 
 ---
 
-## 🎯 Key Features
+## Key Features
 
 - **Agent-based reasoning workflow**: Sequential pipeline of LLM agents (reasoning → validation → optional extensions)
 - **Geospatial constraint mapping**: Query and process Dutch PDOK spatial datasets (Top10NL, administrative boundaries)
@@ -21,7 +21,7 @@ For questions and/or comments, see Support at the bottom of the page.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 .
