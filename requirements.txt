@@ -1,0 +1,42 @@
+# Python dependencies for geospatial agent workflow and utilities
+# System requirement: GDAL library must be installed (libgdal-dev on Ubuntu/Debian, gdal on macOS via brew)
+
+# Core geospatial
+geopandas>=0.14.0
+shapely>=2.0.0
+pyproj>=3.6.0
+fiona>=1.9.0
+
+# Vector index and embeddings
+faiss-cpu>=1.7.4
+openai>=1.0.0
+
+# For gemini-2.5-pro, doing the reasoning
+google-generativeai>=0.3.0
+
+# PDF processing for RAG
+pypdf>=3.17.0
+
+# Tokenization
+tiktoken>=0.5.0
+
+# Data processing
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Configuration
+python-dotenv>=1.0.0
+
+# XML/GML processing
+lxml>=4.9.0
+
+# HTTP requests
+requests>=2.31.0
+
+# YAML parsing (for LLM response fallback)
+pyyaml>=6.0.0
+
+# Development/testing (optional)
+# pytest>=7.4.0
+# jupyter>=1.0.0
+# notebook>=7.0.0

@@ -1,0 +1,10 @@
+.*
+!.gitignore
+!.env.example
+
+__pycache__
+data/datasets
+data/spatial_genai_storage/*
+scratch
+archive/results/all_boundaries*
+admin.md
