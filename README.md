@@ -66,8 +66,8 @@ For questions and/or comments, see Support at the bottom of the page.
 
 ```bash
 # Clone repository
-git clone <repository-url>
-cd <repository-name>
+git clone https://github.com/uashogeschoolutrecht/SpatialGenAI.git
+cd SpatialGenAI
 
 # Create virtual environment
 python -m venv .venv
@@ -232,7 +232,7 @@ python -c "from utils import wgs84_to_rd, rd_to_wgs84; print('✓ Utils imported
 
 For questions about this repository, contact:
 - Fabian Kok [fabian.kok@hu.nl], Hogeschool Utrecht, main developer
-- Rob Peters [], Provincie Utrecht, project owner
+- Rob Peters, Provincie Utrecht, project owner
 
 ---
 
