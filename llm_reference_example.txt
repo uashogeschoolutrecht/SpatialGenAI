@@ -1,0 +1,240 @@
+Table: top10nl_functioneel_gebied_multivlak
+- Column 'mutatietype' has 3 unique values: ['werkelijke verandering' 'kwaliteitsverbetering' None]
+- Column 'typefunctioneelgebied' has 18 unique values: ['nationaal park' 'natuurgebied' 'windturbinepark' 'bedrijventerrein'
+ 'sportterrein, sportcomplex' 'golfterrein' 'landgoed' 'volkstuinen'
+ 'verdedigingswerk' 'vakantiepark' 'heemtuin' 'zonnepark'
+ 'camping, kampeerterrein' 'jachthaven' 'bungalowpark' 'park' 'skibaan'
+ 'overig']
+- Column 'soortnaam' has 5 unique values: [None 'natura2000-gebied' 'kabelskibaan' 'fort' 'grondstation']
+- Column 'tijdstipregistratie' has 21 unique values: <DatetimeArray>
+['2022-06-01 00:00:00', '2025-06-01 00:00:00', '2023-02-01 00:00:00',
+ '2020-04-01 00:00:00', '2024-06-01 00:00:00', '2019-06-01 00:00:00',
+ '2025-02-01 00:00:00', '2019-09-01 00:00:00', '2024-11-01 00:00:00',
+ '2020-06-01 00:00:00', '2022-02-01 00:00:00', '2022-09-01 00:00:00',
+ '2021-09-01 00:00:00', '2023-06-01 00:00:00', '2016-02-01 00:00:00',
+ '2022-04-01 00:00:00', '2023-09-01 00:00:00', '2025-04-01 00:00:00',
+ '2018-11-01 00:00:00', '2021-04-01 00:00:00', '2018-02-01 00:00:00']
+Length: 21, dtype: datetime64[ms]
+- Column 'visualisatiecode' has 18 unique values: [19750 19320 19560 19010 19450 19160 19270 19530 19780 19760 19210 19720
+ 19050 19240 19040 19360 19420 19710]
+- Column 'tdncode' has 5 unique values: [999 883 889 878 648]
+
+
+Table: top10nl_functioneel_gebied_vlak
+- Column 'mutatietype' has 3 unique values: [None 'werkelijke verandering' 'kwaliteitsverbetering']
+- Column 'tdncode' has 13 unique values: [999 137 648 530 889 883 817 117 102 878 887 649 454]
+
+
+Table: top10nl_gebouw_vlak
+- Column 'mutatietype' has 3 unique values: [None 'werkelijke verandering' 'kwaliteitsverbetering']
+- Column 'hoogteklasse' has 2 unique values: ['laagbouw' 'hoogbouw']
+- Column 'hoogteniveau' has 2 unique values: [ 0 -1]
+- Column 'status' has 2 unique values: ['in gebruik' 'buiten gebruik']
+- Column 'gebruiksdoel' has 3 unique values: [None 'overige gebruiksfunctie' 'sportfunctie']
+- Column 'visualisatiecode' has 6 unique values: [ 13000  13300  13100  13400 -13000 -13300]
+- Column 'tdncode' has 20 unique values: [999 108 101 111 473 107 182 170 180 112 151 175 100 381 189 383 155 667
+ 110 121]
+
+
+Table: top10nl_geografisch_gebied_multivlak
+- Column 'lokaalid' has 6 unique values: ['132360135' '131473791' '126812356' '132433204' '103069031' '132023478']
+- Column 'mutatietype' has 2 unique values: ['kwaliteitsverbetering' 'werkelijke verandering']
+- Column 'typegeografischgebied' has 4 unique values: ['watergebied' 'polder' 'streek, veld' 'bosgebied']
+- Column 'naamnl' has 6 unique values: ['Vechtplassen' 'Polder Sticht' 'Polder Holland' 'Driebergerbroek'
+ 'Kaapse Bossen' 'Schoolsteegbosjes']
+- Column 'objectbegintijd' has 6 unique values: <DatetimeArray>
+['2025-02-01 00:00:00', '2021-09-01 00:00:00', '2014-01-24 00:00:00',
+ '2025-06-01 00:00:00', '2008-11-24 00:00:00', '2023-09-01 00:00:00']
+Length: 6, dtype: datetime64[ms]
+- Column 'tijdstipregistratie' has 4 unique values: <DatetimeArray>
+['2025-02-01 00:00:00', '2021-09-01 00:00:00', '2025-06-01 00:00:00',
+ '2023-09-01 00:00:00']
+Length: 4, dtype: datetime64[ms]
+- Column 'visualisatiecode' has 4 unique values: [18100 18120 18130 18010]
+- Column 'tdncode' has 4 unique values: [611 881 880 501]
+
+
+Table: top10nl_geografisch_gebied_vlak
+- Column 'mutatietype' has 3 unique values: ['werkelijke verandering' 'kwaliteitsverbetering' 'modelwijziging']
+- Column 'typegeografischgebied' has 7 unique values: ['streek, veld' 'polder' 'bosgebied' 'heuvel, berg' 'watergebied'
+ 'heidegebied' 'eiland']
+- Column 'objectbegintijd' has 27 unique values: <DatetimeArray>
+['2021-04-01 00:00:00', '2008-11-24 00:00:00', '2021-02-01 00:00:00',
+ '2023-09-01 00:00:00', '2022-02-01 00:00:00', '2010-09-01 00:00:00',
+ '2014-01-24 00:00:00', '2012-06-01 00:00:00', '2022-06-01 00:00:00',
+ '2022-04-01 00:00:00', '2022-11-01 00:00:00', '2015-01-24 00:00:00',
+ '2019-06-01 00:00:00', '2021-09-01 00:00:00', '2025-06-01 00:00:00',
+ '2010-07-02 00:00:00', '2021-11-01 00:00:00', '2021-06-01 00:00:00',
+ '2012-08-31 00:00:00', '2020-06-01 00:00:00', '2020-09-01 00:00:00',
+ '2012-02-06 00:00:00', '2023-02-01 00:00:00', '2019-04-01 00:00:00',
+ '2023-04-01 00:00:00', '2022-09-01 00:00:00', '2025-02-01 00:00:00']
+Length: 27, dtype: datetime64[ms]
+- Column 'tijdstipregistratie' has 18 unique values: <DatetimeArray>
+['2021-04-01 00:00:00', '2021-02-01 00:00:00', '2023-09-01 00:00:00',
+ '2022-02-01 00:00:00', '2021-09-01 00:00:00', '2022-06-01 00:00:00',
+ '2022-04-01 00:00:00', '2022-11-01 00:00:00', '2019-06-01 00:00:00',
+ '2025-06-01 00:00:00', '2021-06-01 00:00:00', '2020-06-01 00:00:00',
+ '2020-09-01 00:00:00', '2021-11-01 00:00:00', '2023-02-01 00:00:00',
+ '2023-04-01 00:00:00', '2022-09-01 00:00:00', '2025-02-01 00:00:00']
+Length: 18, dtype: datetime64[ms]
+- Column 'visualisatiecode' has 7 unique values: [18130 18120 18010 18070 18100 18060 18040]
+- Column 'tdncode' has 7 unique values: [880 881 501 724 611 524 646]
+
+
+Table: top10nl_plaats_multivlak
+- Column 'lokaalid' has 16 unique values: ['132365665' '132365947' '132365741' '118552906' '103081291' '132365540'
+ '132365407' '118558986' '126379374' '132366305' '128995163' '132366199'
+ '132366381' '131697981' '132121705' '132121661']
+- Column 'mutatietype' has 1 unique values: ['werkelijke verandering']
+- Column 'typegebied' has 3 unique values: ['woonkern' 'wijk' 'industriekern']
+- Column 'bebouwdekom' has 2 unique values: ['ja' 'nee']
+- Column 'isbagwoonplaats' has 2 unique values: ['ja' 'nee']
+- Column 'aantalinwoners' has 15 unique values: [12765.  8895. 10345.  3250.  3795.    nan  6520.   475.  1460. 39090.
+   165. 28150.     0.   620.   430.]
+- Column 'naamofficieel' has 15 unique values: ['Blaricum' 'Montfoort' 'De Bilt' 'Huis ter Heide' 'Den Dolder' None
+ 'Kortenhoef' 'Loenersloot' 'Ankeveen' 'Soest' 'Nieuwegein' 'Vleuten'
+ 'Soesterberg' "Tull en 't Waal" "'t Goy"]
+- Column 'naamnl' has 16 unique values: ['Blaricum' 'Montfoort' 'De Bilt' 'Huis ter Heide' 'Den Dolder'
+ 'Valleipoort' 'Kortenhoef' 'Loenersloot' 'Ankeveen' 'Soest' 'Nieuwegein'
+ 'Vleuten' 'Bloeidaal' 'Soesterberg' "Tull en 't Waal" "'t Goy"]
+- Column 'objectbegintijd' has 7 unique values: <DatetimeArray>
+['2025-02-01 00:00:00', '2010-07-02 00:00:00', '2008-11-24 00:00:00',
+ '2013-08-30 00:00:00', '2015-11-01 00:00:00', '2022-04-01 00:00:00',
+ '2024-02-01 00:00:00']
+Length: 7, dtype: datetime64[ms]
+- Column 'tijdstipregistratie' has 1 unique values: <DatetimeArray>
+['2025-02-01 00:00:00']
+Length: 1, dtype: datetime64[ms]
+- Column 'visualisatiecode' has 3 unique values: [18400 18510 18410]
+- Column 'tdncode' has 3 unique values: [851 871 999]
+
+
+Table: top10nl_plaats_vlak
+- Column 'mutatietype' has 1 unique values: ['werkelijke verandering']
+- Column 'typegebied' has 8 unique values: ['woonkern' 'buurtschap' 'deelkern' 'buurt' 'wijk' 'stadsdeel' 'gehucht'
+ 'industriekern']
+- Column 'bebouwdekom' has 2 unique values: ['ja' 'nee']
+- Column 'isbagwoonplaats' has 2 unique values: ['ja' 'nee']
+- Column 'objectbegintijd' has 19 unique values: <DatetimeArray>
+['2015-08-30 00:00:00', '2016-02-01 00:00:00', '2015-11-01 00:00:00',
+ '2015-01-24 00:00:00', '2024-02-01 00:00:00', '2023-02-01 00:00:00',
+ '2025-02-01 00:00:00', '2022-04-01 00:00:00', '2008-11-24 00:00:00',
+ '2013-05-31 00:00:00', '2021-09-01 00:00:00', '2013-08-30 00:00:00',
+ '2010-09-01 00:00:00', '2020-04-01 00:00:00', '2010-07-02 00:00:00',
+ '2012-06-01 00:00:00', '2018-04-01 00:00:00', '2020-09-01 00:00:00',
+ '2014-08-31 00:00:00']
+Length: 19, dtype: datetime64[ms]
+- Column 'tijdstipregistratie' has 1 unique values: <DatetimeArray>
+['2025-02-01 00:00:00']
+Length: 1, dtype: datetime64[ms]
+- Column 'visualisatiecode' has 8 unique values: [18400 18450 18430 18520 18510 18500 18440 18410]
+- Column 'tdncode' has 6 unique values: [851 866 999 871 870 868]
+
+
+Table: top10nl_plantopografie_vlak
+
+
+Table: top10nl_registratief_gebied_multivlak
+- Column 'lokaalid' has 1 unique values: ['132369597']
+- Column 'mutatietype' has 1 unique values: ['werkelijke verandering']
+- Column 'typeregistratiefgebied' has 1 unique values: ['land']
+- Column 'naamofficieel' has 1 unique values: ['Nederland']
+- Column 'naamnl' has 1 unique values: ['Nederland']
+- Column 'objectbegintijd' has 1 unique values: <DatetimeArray>
+['2025-02-01 00:00:00']
+Length: 1, dtype: datetime64[ms]
+- Column 'tijdstipregistratie' has 1 unique values: <DatetimeArray>
+['2025-02-01 00:00:00']
+Length: 1, dtype: datetime64[ms]
+- Column 'visualisatiecode' has 1 unique values: [17000]
+- Column 'tdncode' has 1 unique values: [808]
+
+
+Table: top10nl_registratief_gebied_vlak
+- Column 'mutatietype' has 3 unique values: ['werkelijke verandering' None 'kwaliteitsverbetering']
+- Column 'typeregistratiefgebied' has 2 unique values: ['provincie' 'gemeente']
+- Column 'objectbegintijd' has 9 unique values: <DatetimeArray>
+['2025-02-01 00:00:00', '2013-10-26 00:00:00', '2020-02-01 00:00:00',
+ '2024-06-01 00:00:00', '2023-02-01 00:00:00', '2022-04-01 00:00:00',
+ '2020-04-01 00:00:00', '2022-02-01 00:00:00', '2016-04-01 00:00:00']
+Length: 9, dtype: datetime64[ms]
+- Column 'tijdstipregistratie' has 9 unique values: <DatetimeArray>
+['2025-02-01 00:00:00', '2015-03-28 00:00:00', '2020-02-01 00:00:00',
+ '2024-06-01 00:00:00', '2023-02-01 00:00:00', '2022-04-01 00:00:00',
+ '2020-04-01 00:00:00', '2021-11-01 00:00:00', '2016-06-01 00:00:00']
+Length: 9, dtype: datetime64[ms]
+- Column 'visualisatiecode' has 2 unique values: [17010 17020]
+- Column 'tdncode' has 2 unique values: [804 801]
+
+
+Table: top10nl_terrein_vlak
+- Column 'mutatietype' has 3 unique values: ['kwaliteitsverbetering' None 'werkelijke verandering']
+- Column 'typelandgebruik' has 20 unique values: ['grasland' 'overig' 'akkerland' 'bos: loofbos' 'spoorbaanlichaam'
+ 'basaltblokken, steenglooiing' 'boomgaard' 'bos: griend' 'fruitkwekerij'
+ 'braakliggend' 'aanlegsteiger' 'populieren' 'dodenakker' 'zand'
+ 'boomkwekerij' 'bebouwd gebied' 'bos: gemengd bos' 'bos: naaldbos'
+ 'dodenakker met bos' 'heide']
+- Column 'fysiekvoorkomen' has 4 unique values: [None 'op vast deel van brug' 'overkluisd' 'in tunnel']
+- Column 'voorkomen' has 4 unique values: [None 'met riet' 'met riet|dras, moerassig' 'dras, moerassig']
+- Column 'hoogteniveau' has 3 unique values: [ 0 -1 -2]
+- Column 'naam' has 5 unique values: [None 'Mofferbrug' 'Viebrug' 'Tolsteegbrug' 'Smeebrug']
+- Column 'tdncode' has 18 unique values: [521 526 520 502 999 629 522 507 531 651 508 530 525 523 101 506 505 524]
+
+
+Table: top10nl_waterdeel_vlak
+- Column 'mutatietype' has 4 unique values: [None 'werkelijke verandering' 'kwaliteitsverbetering' 'modelwijziging']
+- Column 'typewater' has 2 unique values: ['waterloop' 'meer, plas']
+- Column 'breedteklasse' has 5 unique values: ['6 - 12 meter' '50 - 125 meter' '12 - 50 meter' None '> 125 meter']
+- Column 'hoofdafwatering' has 2 unique values: ['nee' 'ja']
+- Column 'fysiekvoorkomen' has 3 unique values: [None 'in sluis' 'overkluisd']
+- Column 'voorkomen' has 2 unique values: [None 'met riet']
+- Column 'hoogteniveau' has 3 unique values: [ 0 -1 -2]
+- Column 'functie' has 5 unique values: ['overig' 'haven' 'waterzuivering' 'zwembad' 'natuurbad']
+- Column 'getijdeinvloed' has 2 unique values: ['nee' 'ja']
+- Column 'isbagnaam' has 2 unique values: [None 'ja']
+- Column 'sluisnaam' has 9 unique values: [None "'t Hemeltje" 'Zuidersluis' 'Doorslagsluis' 'Prinses Beatrixsluis'
+ 'Muntsluis' 'Sluis Hagestein' 'Koninginnensluis' 'Noordersluis']
+- Column 'visualisatiecode' has 17 unique values: [ 12400 -12400  12420 -12410  12500 -12500  12410  12505  12405 -12420
+  12415  12800  12425 -12800  12430 -12430 -12405]
+- Column 'tdncode' has 1 unique values: [611]
+
+
+Table: top10nl_wegdeel_vlak
+- Column 'mutatietype' has 3 unique values: [None 'werkelijke verandering' 'kwaliteitsverbetering']
+- Column 'hoogteniveau' has 3 unique values: [ 0 -1 -2]
+- Column 'typeinfrastructuur' has 3 unique values: ['kruising' 'verbinding' 'overig verkeersgebied']
+- Column 'hoofdverkeersgebruik' has 20 unique values: ['gemengd verkeer' 'fietsers, bromfietsers'
+ 'gemengd verkeer|fietsers, bromfietsers'
+ 'fietsers, bromfietsers|voetgangers' 'snelverkeer' 'voetgangers'
+ 'gemengd verkeer|voetgangers' 'snelverkeer|gemengd verkeer'
+ 'busverkeer|fietsers, bromfietsers' 'busverkeer'
+ 'gemengd verkeer|busverkeer'
+ 'gemengd verkeer|fietsers, bromfietsers|voetgangers'
+ 'snelverkeer|gemengd verkeer|busverkeer' 'snelverkeer|busverkeer'
+ 'snelverkeer|fietsers, bromfietsers'
+ 'gemengd verkeer|busverkeer|fietsers, bromfietsers' 'vliegverkeer'
+ 'busverkeer|voetgangers' 'gemengd verkeer|busverkeer|voetgangers'
+ 'snelverkeer|gemengd verkeer|fietsers, bromfietsers']
+- Column 'fysiekvoorkomen' has 12 unique values: [None 'op vast deel van brug' 'op oprit / afrit' 'op rotonde' 'in tunnel'
+ 'op beweegbaar deel van brug' 'overkluisd' 'op knooppuntverbinding'
+ 'op vast deel van brug|op oprit / afrit'
+ 'op vast deel van brug|op knooppuntverbinding'
+ 'op vast deel van brug|overkluisd' 'op vast deel van brug|op rotonde']
+- Column 'verhardingsbreedteklasse' has 4 unique values: ['2 - 4 meter' '4 - 7 meter' '> 7 meter' None]
+- Column 'gescheidenrijbaan' has 2 unique values: ['nee' 'ja']
+- Column 'verhardingstype' has 4 unique values: ['verhard' 'onbekend' 'onverhard' 'half verhard']
+- Column 'aantalrijstroken' has 7 unique values: [nan  4.  2.  5.  6.  3.  1.]
+- Column 'status' has 3 unique values: ['in gebruik' 'in uitvoering' 'buiten gebruik']
+- Column 'awegnummer' has 11 unique values: [None 'A27' 'A2' 'A12' 'A1' 'A28' 'A1|A28' 'A1|A27' 'A12|A2' 'A12|A27'
+ 'A27|A28']
+- Column 'ewegnummer' has 17 unique values: [None 'E25' 'E35' 'E25|E30' 'E231' 'E232' 'E232|E30' 'E30' 'E25|E35'
+ 'E25|E30|E35' 'E30|E35' 'E311' 'E311|E35' 'E30|E311' 'E30|E231'
+ 'E231|E30' 'E231|E232']
+- Column 'isbagnaam' has 3 unique values: [None 'ja' 'nee']
+- Column 'knooppuntnaam' has 6 unique values: [None 'Knooppunt Hoevelaken' 'Knooppunt Rijnsweerd' 'Knooppunt Eemnes'
+ 'Knooppunt Oudenrijn' 'Knooppunt Lunetten']
+- Column 'tunnelnaam' has 4 unique values: [None 'Alexiatunnel' 'Leidsche Rijntunnel' 'Waalsetunnel']
+- Column 'tdncode' has 22 unique values: [353 340 334 324 320 200 390 310 314 234 230 280 244 300 287 240 330 220
+ 210 455 456 290]
+
+

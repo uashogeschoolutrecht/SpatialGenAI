@@ -4,7 +4,10 @@
 
 __pycache__
 data/datasets
-data/spatial_genai_storage/*
+data/spatial_genai_storage/data_PDOK
+data/spatial_genai_storage/database_RAG
+data/spatial_genai_storage/data_webscrape_OLD
+data/spatial_genai_storage/temp
 scratch
 archive/results/all_boundaries*
 admin.md
